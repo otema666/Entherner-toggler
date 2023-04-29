@@ -1,17 +1,17 @@
 @echo off
 color a
 echo ------------------------------------
-echo 1 - Activar Ethernet
-echo 2 - Desactivar Ethernet
+echo 1 - Activate Ethernet
+echo 2 - Disable Ethernet
 echo ------------------------------------
-set /p opcion=Seleccione una opcion: 
+set /p opcion=Select an option: 
 if %opcion%==1 (
 netsh interface set interface "Ethernet" admin=enabled
-echo Adaptador activado.
+echo Adapter activated.
 ) else if %opcion%==2 (
 netsh interface set interface "Ethernet" admin=disabled
-echo Adaptador desactivado.
+echo Adapter disabled.
 ) else (
-echo Opcion no valida.
+echo Invalid option.
 )
 pause
