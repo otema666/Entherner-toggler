@@ -1,3 +1,3 @@
-# Entherner-toggler
-Simple enthernet toggler. 
-Run WIFI.bat as administrator
+# Entherner toggler
+#### Simple enthernet toggler. 
+#### Run WIFI.bat as administrator.
